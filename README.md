@@ -72,8 +72,8 @@ Each experiment folder contains:
 
 | Field | Value |
 |-------|-------|
-| Name | *(Your Name)* |
-| Roll No. | *(Your Roll Number)* |
-| Section | *(Your Section)* |
-| Branch | *(Your Branch)* |
-| Faculty | *(Faculty Name)* |
+| Name | *(Raghuveer Diya)* |
+| Roll No. | *(2301010268)* |
+| Section | *(D)* |
+| Branch | *(CSE)* |
+| Faculty | *(Rajesh)* |
