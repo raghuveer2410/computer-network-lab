@@ -1,0 +1,21 @@
+# Experiment 3 - Routing Algorithms Configuration
+
+! RIP v2 Configuration
+router rip
+ version 2
+ network 192.168.1.0
+ network 192.168.2.0
+ network 10.0.0.0
+ no auto-summary
+
+! OSPF Configuration
+router ospf 1
+ network 192.168.1.0 0.0.0.255 area 0
+ network 192.168.2.0 0.0.0.255 area 0
+ network 10.0.0.0 0.0.0.3 area 0
+
+! Verification Commands
+! show ip route
+! show ip rip database
+! show ip ospf neighbor
+! traceroute 192.168.2.10

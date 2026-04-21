@@ -1,0 +1,9 @@
+# Experiment 7 - Sliding Window Protocol with Piggybacking
+# No Packet Tracer config needed. Run Python simulation.
+
+# Simulation Parameters:
+WINDOW_SIZE  = 4
+SEQ_BITS     = 3
+TOTAL_FRAMES = 15
+TIMEOUT      = 2
+LOSS_PROB    = 0.2

@@ -1,0 +1,21 @@
+# Experiment 11 - HTTP Web Server Configuration
+
+! Packet Tracer HTTP Server
+! Server > Services > HTTP: Enable
+! Edit index.html
+! Server IP: 192.168.1.100
+
+! PC Web Browser
+! Desktop > Web Browser > http://192.168.1.100
+
+! Python HTTP Server
+! Run: python3 http_server.py
+! Visit: http://localhost:8080
+
+# HTTP GET Request:
+# GET /index.html HTTP/1.1
+# Host: 192.168.1.100
+
+# HTTP Response:
+# HTTP/1.1 200 OK
+# Content-Type: text/html

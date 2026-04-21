@@ -1,0 +1,8 @@
+# Experiment 9 - TCP/UDP Socket Configuration
+# Run: python3 tcp_server.py   (port 8080)
+# Run: python3 tcp_client.py
+# Run: python3 udp_server.py   (port 9090)
+# Run: python3 udp_client.py
+
+# Observe TCP 3-way handshake in Packet Tracer simulation mode
+# Router debug: debug ip tcp transactions

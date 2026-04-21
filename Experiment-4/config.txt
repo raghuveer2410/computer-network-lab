@@ -1,0 +1,14 @@
+# Experiment 4 - Error Detection (CRC) and Correction (Hamming)
+# No Packet Tracer configuration needed.
+# Run the Python scripts provided.
+
+# CRC Example:
+# Data:        1101011011
+# Generator:   10011
+# CRC:         1110
+# Transmitted: 11010110111110
+
+# Hamming Code Example (7-bit for 4 data bits):
+# Data: d1=1, d2=0, d3=1, d4=1
+# Parity positions: p1(pos1), p2(pos2), p4(pos4)
+# Encoded: p1 p2 d1 p4 d2 d3 d4

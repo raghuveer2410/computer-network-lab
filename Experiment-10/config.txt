@@ -1,0 +1,15 @@
+# Experiment 10 - DNS Server Configuration
+
+! Packet Tracer DNS Setup
+! Server > Services > DNS: Enable
+! Add A Records:
+!   www.cnlab.com   -> 192.168.1.100
+!   mail.cnlab.com  -> 192.168.1.101
+!   ftp.cnlab.com   -> 192.168.1.102
+
+! PC Configuration
+! DNS Server: 192.168.1.200
+
+! Testing
+! nslookup www.cnlab.com
+! ping www.cnlab.com

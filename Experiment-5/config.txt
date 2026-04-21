@@ -1,0 +1,13 @@
+# Experiment 5 - Flow Control ARQ Protocols
+# Simulation via Python scripts.
+
+# Protocol Window Sizes:
+# Stop-and-Wait:  Window = 1
+# Go-Back-N:      Window = 2^n - 1  (n=3 => W=7)
+# Selective Repeat: Window = 2^(n-1) (n=3 => W=4)
+
+# Simulation Parameters:
+WINDOW_SIZE_GBN = 7
+WINDOW_SIZE_SR  = 4
+TOTAL_FRAMES    = 20
+ERROR_RATE      = 0.1

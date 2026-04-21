@@ -1,0 +1,22 @@
+# Experiment 2 - Packet Switching vs Circuit Switching
+
+! Router R1 Configuration
+hostname R1
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+interface Serial0/0/0
+ ip address 10.0.0.1 255.255.255.252
+ clock rate 64000
+ no shutdown
+ip route 192.168.2.0 255.255.255.0 10.0.0.2
+
+! Router R2 Configuration
+hostname R2
+interface GigabitEthernet0/0
+ ip address 192.168.2.1 255.255.255.0
+ no shutdown
+interface Serial0/0/0
+ ip address 10.0.0.2 255.255.255.252
+ no shutdown
+ip route 192.168.1.0 255.255.255.0 10.0.0.1

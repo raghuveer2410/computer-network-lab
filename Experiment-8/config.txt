@@ -1,0 +1,26 @@
+# Experiment 8 - DHCP and IPv6 Configuration
+
+! DHCP Server Configuration
+ip dhcp excluded-address 192.168.1.1 192.168.1.10
+ip dhcp pool LAN_POOL
+ network 192.168.1.0 255.255.255.0
+ default-router 192.168.1.1
+ dns-server 192.168.1.200
+ lease 7
+
+! Router Interface
+interface GigabitEthernet0/0
+ ip address 192.168.1.1 255.255.255.0
+ no shutdown
+
+! IPv6 Configuration
+ipv6 unicast-routing
+interface GigabitEthernet0/1
+ ipv6 address 2001:db8:acad:1::1/64
+ ipv6 enable
+ no shutdown
+
+! Verification
+! show ip dhcp binding
+! show arp
+! show ipv6 interface brief
